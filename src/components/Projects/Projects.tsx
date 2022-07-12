@@ -1,6 +1,6 @@
 import styles from './Projects.module.css'
 
-
+import zephyrus from '../../assets/login.png'
 import app from '../../assets/app.png'
 import secot from '../../assets/secot.png'
 
@@ -11,7 +11,9 @@ export function Projects() {
       <div className={styles.container}>
         <div className={styles.project}>
           <a href='https://github.com/YuutaDragon/zephyrus'>
-            
+            <div className={styles.image}>
+              <img src={zephyrus} alt="" />
+            </div>
           </a>
         </div>
         <div className={styles.project}>
