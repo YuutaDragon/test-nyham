@@ -1,7 +1,7 @@
 import styles from './Projects.module.css'
 
 import zephyrus from '../../assets/Login.png'
-import app from '../../assets/app.png'
+import app from '../../assets/app.png' 
 import secot from '../../assets/secot.png'
 
 export function Projects() {
